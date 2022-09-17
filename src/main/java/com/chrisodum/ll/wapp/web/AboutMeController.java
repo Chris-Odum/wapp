@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/about")
-public class AboutController {
+@RequestMapping("/rcodum")
+public class AboutMeController {
 
     @GetMapping
-    public String getAbout() {
+    public String getAboutMe() {
 
-        return "about";
+        return "rcodum.html";
     }
 
 }
